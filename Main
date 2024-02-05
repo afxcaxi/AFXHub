@@ -12,7 +12,7 @@ local Window =
     {
         Title = "AFX Hub",
         SubTitle = "Blox Fruit Only",
-        TabWidth = 180,
+        TabWidth = 160,
         Size = UDim2.fromOffset(520, 400),
         Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
         Theme = "Light",
@@ -38,8 +38,8 @@ do
     OrionLib:MakeNotification(
         {
             Name = "Notification!",
-            Content = "Please Wait For Loading Script...",
-            Image = "x",
+            Content = "Please Wait For Loading Code...",
+            Image = "rbxassetid://4483345998",
             Time = 7
         }
     )
@@ -115,11 +115,7 @@ do
         Second_Sea = true
     elseif placeId == 7449423635 then
         Third_Sea = true
-    elseif game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
-else
-    game.Players.LocalPlayer:Kick("Not Support This Game Or Not Support This Exploit")
-end
-
+    end
 
     --// Check Quest
     function CheckLevel()
