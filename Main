@@ -38,7 +38,7 @@ do
     OrionLib:MakeNotification(
         {
             Name = "Notification!",
-            Content = "Please Wait For Loading Code...",
+            Content = "Please Wait For Loading Script...",
             Image = "rbxassetid://4483345998",
             Time = 7
         }
@@ -11187,7 +11187,7 @@ end
 OrionLib:MakeNotification(
     {
         Name = "Notification!",
-        Content = "Loading Code Done.. Can You Using Script !!",
+        Content = "Loading Script Done.. You Can Using This Script !!",
         Image = "rbxassetid://4483345998",
         Time = 5
     }
